@@ -1,0 +1,73 @@
+@charset "utf-8";
+
+
+.head-line{
+    width: 100% !important;
+    height: 30px !important;
+    
+}
+.icon{
+    width: 50px; height: 50px;
+    vertical-align: top;
+    fill: currentColor;
+    overflow: hidden;
+}
+.nav{
+    background-color: #1ABC9C;
+    font-size: 30px;
+    color: white;
+    text-align: left;
+    height: 60px;
+}
+.nickname{
+    color: #FF99CC;
+    font-size: 12px;
+    position: absolute;
+    left: 80px;
+    top: 5px;
+
+}
+.return{
+    padding: 5px 15px;
+    border-top: 1px solid #ccc;
+}
+.time{
+    color: #ccc;
+    font-size: 12px;
+    position: absolute;
+    left: 80px;
+    top: 30px;
+
+}
+.title{
+    margin: 20px 10px 10px 10px;
+    position: relative;
+}
+.text{
+   margin: 20px 30px;
+   font-size: 15px;
+}
+.bottom{
+    position: fixed;
+    bottom: 0; 
+    background-color: #eeeeee;
+    width: 100%;
+    padding-top: 10px;
+}
+.form-group{
+    width: 80%;
+}
+button{
+    position:absolute;
+    right: 3%;
+    bottom : 15px; 
+}
+.btn{
+    width: 60px;
+    background-color: #1ABC9C;
+    color: white;
+}
+.nav span{
+    font-size: 45px;
+    margin-left: 15px;
+}

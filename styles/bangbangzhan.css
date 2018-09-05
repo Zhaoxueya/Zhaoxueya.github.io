@@ -1,0 +1,108 @@
+@charset "utf-8";
+
+body{
+    background-color: #eeeeee;
+}
+.bottom{
+    margin: 10px 15px;
+}
+div{
+    background-color: #fff;
+}
+.daohang{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: #fff;
+}
+.daohang .icon{
+    width: 40px !important;
+    height: 40px !important;
+    
+}
+ul li{
+    margin: 0 0 6px;
+    padding: 0;
+}
+.daohang ul{
+    display: flex;
+}
+.daohang ul li{
+    list-style: none;
+    position: relative;
+    margin: 0;
+    width: 25%;
+    display: list-item;
+    flex: 1;
+    text-align: center;
+
+}
+
+h3{
+    line-height: 60px;
+    margin-top: 0;
+}
+h6{
+    font-weight: bold;
+    font-size: 15px;
+}
+.icon{
+    width: 23px;
+    height: 23px;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+.container-fluid{
+    margin-top: 5px;
+    padding-top:5px;
+    background-color: #eeeeee;
+}
+
+.passage{
+    margin-top: 3px;
+    padding: 10px 5px;
+}
+.passage p{
+    padding: 5px 15px;
+}
+.row{
+    background-color: #eeeeee;
+}
+span{
+    color: #1ABC9C;
+
+}
+.title{
+    background-color: #fff;
+    height: 60px;
+}    
+img{
+    width: 25px;
+}
+#introduce{
+    margin: 2px 0;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+}
+.name{
+    color: #FF99CC;
+    font-size: 12px;
+
+}
+.time{
+    color: #dddddd;
+    font-size: 12px;
+    float: right;
+}
+.write{
+    font-size: 15px;
+    line-height: 1;
+    color: #dddddd;
+}
+.active{
+    color: #1ABC9C;
+}

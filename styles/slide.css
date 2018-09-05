@@ -1,0 +1,127 @@
+@charset "utf-8";
+
+a{
+    color: black;
+}
+.container{
+    border-top: solid 2px #d7d7d7;
+}
+
+
+.container > div {
+    padding-bottom: 20px;
+     border-bottom: solid 2px #d7d7d7; 
+
+     }
+.carousel-inner img{
+    margin: 0 auto;
+}
+.carousel-control{
+    font-size: 100px;
+    
+}
+.sign{
+    font-size: 30px;
+    
+}
+.navigation{
+    position: absolute;
+    z-index: 10;
+    opacity: 0.6;
+    margin: 10px auto;
+
+}
+.circle{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #1ABC9C;
+    border-radius:25px; 
+    
+}
+
+.icon{
+    width: 30px; height: 30px;
+    vertical-align: middle;
+    fill: currentColor;
+    overflow: hidden;
+}
+.icon-top{
+    margin-top: 10px;
+}
+hr{
+    size: 5;
+    color: #DDDDDD;
+    width: 100%;
+    margin-bottom: 0;
+    
+}
+.more{
+    float: right;
+    margin-top: 5px;
+    color: #DDDDDD !important;
+}
+.caption{
+    float: left;
+    margin-top: 5px;
+    color: #1ABC9C;
+}
+.passage-img{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.img-reponsive{
+    max-width: 100%;
+    height: auto;
+}
+.img-font{
+    position: absolute;
+    top: 30px;
+    left: 20px;
+}
+.list-group{
+    margin-bottom: 0;
+}
+.bottom-icon{
+    width: 40px;
+    height: 40px;
+}
+/*底部导航的样式*/
+.daohang{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: #fff;
+    /*清除container>div的样式*/
+    padding-bottom: 0 !important;
+    border-bottom: none !important;
+}
+.daohang .icon{
+    width: 40px !important;
+    height: 40px !important;
+    
+}
+ul li{
+    margin: 0 0 6px;
+    padding: 0;
+}
+.daohang ul{
+    display: flex;
+}
+.daohang ul li{
+    list-style: none;
+    position: relative;
+    margin: 0;
+    width: 25%;
+    display: list-item;
+    flex: 1;
+    text-align: center;
+
+}
+.write{
+    font-size: 15px;
+    line-height: 1;
+    color: #dddddd;
+}
