@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>登录界面</title>
+    <link rel="stylesheet" href="../cpnts/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../styles/login.css">
+
+</head>
+<body class="text-center">
+        <form class="form-signin">
+        	<button type="button" class="close" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        	
+        	 <svg class="icon LOGO" aria-hidden="true">
+        		<use xlink:href="#icon-zizhitianshi"></use>
+        	</svg> 
+        	<h1 class="h3 mb-3 font-weight-normal">ANGEL</h1>
+        	<label for="user" class="sr-only">手机号/用户名</label>
+        	<input type="text" v-model="userName" id="user" class="form-control" placeholder="手机号/用户名" required autofocus />
+        	<label for="password" class="sr-only">密码</label>
+        	<input type="password" v-model="password" id="password" class="form-control" placeholder="密码" required />
+        	<div v-if="hasError" class="alert alert-danger" role="alert">
+        		{{ errorMessage }}
+        	</div> 
+        	<button class="btn btn-link">忘记密码</button>
+        	<button class="btn btn-lg btn-success btn-block" v-on:click="login" type="button">登 录</button>
+        	<button class="btn btn-link"><a href="register.html" class="">创建账号</a></button>
+        	<br />
+        	<br />
+        	
+
+            <button class="btn btn-default btn-block opa">
+                <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-QQ2"></use>
+                </svg>
+            QQ账号登录</button>
+        	<button class="btn btn-default btn-block opa">
+                <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-weixin"></use>
+                </svg>
+
+            微信账号登录</button>
+        	<button class="btn btn-default btn-block opa">
+                <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-weibo"></use>
+                </svg>
+
+            微博账号登录</button>
+        	<br /><br />
+        	<p class="mt-5 mb-3 text-muted">&copy; 2018 电子商务系项目制第九组</p>
+        </form>
+
+
+
+
+
+	<script src="../cpnts/js/jquery.min.js"></script>
+	<script src="../cpnts/js/bootstrap.min.js"></script>
+    
+
+    <script src="../scripts/font_783554_hnnrdcqjwo.js"></script> 
+    <script src="../scripts/font_794653_ok5ymthqtq.js"></script>
+    <script src="../cpnts/vue/vue.js"></script>
+    <script src="../utils/qwest.min.js"></script>
+    <script src="../scripts/login.js"></script>
+   
+</body>
+</html>

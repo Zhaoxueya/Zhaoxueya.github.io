@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale-1, maximum-scale=1, user-scale=no">
+	<link rel="stylesheet" href="../cpnts/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../styles/register.css">
+	<title>注册</title>
+</head>
+<body>
+	 <form class="form-signin">
+        	<div  class="return" >
+        		<a href="login.html">
+        		<svg class="icon" aria-hidden="true">
+        		     <use xlink:href="#icon-fanhui-copy"></use>
+        	    </svg>
+        	    </a>
+            </div>
+
+
+        	 <svg class="icon LOGO" aria-hidden="true">
+        		<use xlink:href="#icon-zizhitianshi"></use>
+        	</svg> 
+        	<h1 class="h3 text-center font-weight-normal">ANGEL</h1>
+
+
+            <div id="denglu">
+            <div class="block opa">
+            	<svg class="icon tubiao" aria-hidden="true">
+            		<use xlink:href="#icon-shouji"></use>
+            	</svg>
+        	<label for="user" class="sr-only">输入手机号</label> 
+        	<input type="text" v-model="useName" id="user" class="form-control " placeholder="请输入手机号码" required autofocus />
+        	</div>
+
+            <div class="block opa">
+            	<svg class="icon tubiao" aria-hidden="true">
+            		<use xlink:href="#icon-xinxi"></use>
+            	</svg>
+        	<label for="checkword" class="sr-only">短信验证码</label>
+        	<input type="text" v-model="checkWord" id="checkword" class="form-control " placeholder="短信验证码" required />
+        	<span  class="form" aria-hidden="true">发送验证码</span>
+        	</div>
+
+
+
+            
+            <div class="block opa">
+            	<svg class="icon tubiao " aria-hidden="true">
+            		<use xlink:href="#icon-mima"></use>
+            	</svg>
+        	<label for="password" class="sr-only">设置密码</label>
+        	<input type="password" v-model="password" id="password" class="form-control " placeholder="设置登录密码" required />
+        	</div>
+
+        	<lable for="" class="sr-only">用户服务协议</lable>
+        	<input type="checkbox" >已阅读并同意《<span>用户服务协议</span>》
+        	<br /><br /><br />
+
+        	<button  class="btn btn-lg btn-success btn-block" v-on:click="register">登 录</button>
+        </div>
+        	<br /><br />
+
+        	<p class="p text-muted">&copy; 2018 电子商务系项目制第九组</p>
+       </form>
+	
+
+
+
+
+
+
+
+
+
+
+
+	<script src="../cpnts/js/jquery.min.js"></script>
+	<script src="../cpnts/js/bootstrap.min.js"></script>
+	<script src="../scripts/font_795291_goo0ijje2l6.js"></script>
+    <script src="../cpnts/vue/vue.js"></script>
+    <script src="../scripts/register.js"></script>
+</body>
+</html>

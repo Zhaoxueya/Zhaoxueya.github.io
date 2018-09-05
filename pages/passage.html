@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<link rel="stylesheet" href="../cpnts/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../styles/passage.css">
+	<title>文章</title>
+</head>
+<body>
+
+	
+	<div class="navbar bg-light  ">
+	<nav class="navbar navbar-light bg-faded navbar-fixed-top">
+        <span class="nav-item-1 col-xs-2 col-sm-2 col-md-2 col-lg-2" >
+        	返回
+        </span>                 
+        <span class="nav-item-2 col-xs-8 col-sm-8 col-md-8 col-lg-8 rizhi" >文章标题</span>
+        <div class="nav-item-3 col-xs-1 col-sm-1 col-md-1 col-lg-1" v-on:click="sharepassage">
+            <svg class="icon top-icon" aria-hidden="true">
+                     <use xlink:href="#icon-fenxiang-copy"></use>
+            </svg>
+        </div>
+        <span class="nav-item-3 col-xs-1 col-sm-1 col-md-1 col-lg-1" >
+            <svg class="icon top-icon" aria-hidden="true">
+                     <use xlink:href="#icon-shoucang-copy"></use>
+            </svg>
+        </span>    
+    </nav>
+   </div>
+
+   <div class="container">
+   	<p>
+   		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;沉醉在记忆里已经很久了，不知从何时起，发现以前的许多都是徒劳的，可悲的，可叹的；可笑的；一重又一重的过往，在破碎的杂絮里，碰碰撞撞，最后支离破碎，无法重生！落枕后许多难眠，一次又一次烦扰我的心绪，窗棂处的月光，正好与我的双眼对视，凝视许久的对白，换来一夜的零乱，翻来覆去的旋转，将昔日的往事蔓延在无人知晓的国度里，重生的孤独，用力去分解，去遗忘，遗忘我身边的每一处。秋意慢慢袭来，漂泊在星空里的凉意，滋生心灵的位处，秋风阵阵，落叶飘飘，又是一个孤零伤感的气节，写下许多叹秋的东西，不管是快乐，还是悲伤，都是那些心态的坐标杂乱无章，重新定位，也许旋转后的明日，将是遗忘在角落里的幸运儿，重新开始！很多时候，很长时间，将日记、相册、同学录翻开看看，曾经许多次欣喜过，疯狂过，不想忘记，不想将美好的东西留在记忆里，尝试留恋，学会攀爬，当指尖即将屹立之时，还是会失望，一无所有，也许期望太大，希望太多，不过我还是会欣喜若狂，学会坚强，学会成长，记忆如同细水常流，不会枯竭，不会停止，需要他时可像捧起浪花里的花瓣一样，细细寻看，细细品味，不要留恋太久，他的生命也不过是几刻钟的时间，会慢慢褪去，我知道回忆的淡定，但我还是开始喜欢回忆，因为那有我心灵震撼的灵物！
+   	</p>
+   	
+   </div>
+
+	
+<!-- 分享弹出框 -->
+     <div class="share" v-show="clickShare">
+     	<h5>将此文章分享到</h5>
+     	<br />
+     	<div class="row col-sm-10 col-md-8 col-lg-6 col-sm-offset-1 col-md-offset-2 col-lg-offset-3" >
+     		<div class=" col-xs-3 col-sm-3 col-md-3 col-lg-3 ">
+     			<div class="block">
+     			<svg class="icon share-ico" aria-hidden="true">
+                     <use xlink:href="#icon-qq"></use>
+                </svg>
+                </div>
+     			<span>QQ好友</span>
+     		</div>
+     		<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 ">
+     			<div class="block">
+     			<svg class="icon share-ico" aria-hidden="true">
+                     <use xlink:href="#icon-weixin"></use>
+                </svg>
+                </div>
+     			<span>微信好友</span>
+
+     		</div>
+     		<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 ">
+     			<div class="block">
+     			<svg class="icon share-ico" aria-hidden="true">
+                     <use xlink:href="#icon-pengyouquan1"></use>
+                </svg>
+                </div>
+     			<span>朋友圈</span>
+
+     		</div>
+     		<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 ">
+     			<div class="block">
+     			<svg class="icon share-ico" aria-hidden="true">
+                     <use xlink:href="#icon-kongjian"></use>
+                </svg>
+                </div>
+     			<span>QQ空间</span>
+
+     		</div>
+     	</div>
+     	<br /><br />
+     	<div class="row col-sm-10 col-md-8 col-lg-6 col-sm-offset-1 col-md-offset-2 col-lg-offset-3" >  
+     		<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 ">
+     			<div class="block">
+     			<svg class="icon share-ico" aria-hidden="true">
+                     <use xlink:href="#icon-weibo"></use>
+                </svg>
+                </div>
+     			<span>新浪微博</span>
+
+     		</div>
+     		<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 ">
+     			<div class="block">
+     			<svg class="icon share-ico" aria-hidden="true">
+                     <use xlink:href="#icon-youjian"></use>
+                </svg>
+                </div>
+     			<span>&nbsp;电子邮箱</span>
+
+     		</div>
+     		<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 ">
+     			<div class="block">
+     			<svg class="icon share-ico" aria-hidden="true">
+                     <use xlink:href="#icon-duanxin"></use>
+                </svg>
+                </div>
+     			<span>&nbsp;&nbsp;短信</span>
+
+     		</div>
+     		<div class=" col-xs-3 col-sm-3 col-md-3 col-lg-3">
+     			<div class="block">
+     			<svg class="icon share-ico" aria-hidden="true">
+                     <use xlink:href="#icon-fuzhilianjie"></use>
+                </svg>
+                </div>
+     			<span>&nbsp;复制链接</span>
+
+     		</div>
+     	</div>
+     </div>
+
+
+
+
+
+
+
+
+	<script src="../cpnts/js/jquery.min.js"></script>
+	<script src="../cpnts/js/bootstrap.min.js"></script>
+	<script src="../scripts/font_818182_7wl9j7z5dr9.js"></script>
+	<script src="../cpnts/vue/vue.js"></script>
+	<script src="../scripts/passage.js"></script>
+</body>
+</html>
