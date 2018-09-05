@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/talk.css" >
+    <script type="text/javascript">      
+    // 
+        window.onload = function(){
+            var Words = document.getElementById("words");
+            var Who = document.getElementById("who");
+            var TalkWords = document.getElementById("talkwords");
+            var TalkSub = document.getElementById("talksub");
+
+
+            TalkSub.onclick = function(){
+                //定义空字符串
+                var str = "";
+                if(TalkWords.value == ""){
+                     // 消息为空时弹窗
+                    alert("消息不能为空");
+                    return;
+                }
+                if(Who.value == 0){
+                    //如果Who.value为0n那么是 A说
+                    str = '<div class="atalk"><span>A说 :' + TalkWords.value +'</span></div>';
+                }
+                else{
+                    str = '<div class="btalk"><span>B说 :' + TalkWords.value +'</span></div>' ;  
+                }
+                # 将之前的内容与要发的内容拼接好 提交
+                Words.innerHTML = Words.innerHTML + str;
+            }
+
+        }
+
+
+    </script>
+</head>
+<body>
+    <div class="talk_con col-xs-10 col-xs-offset-1  col-sm-10 col-sm-ossset-1  col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
+        <div class="talk_show" id="words">
+            <div class="atalk"><span id="asay">A说：老师我这个问题怎么办？</span></div>
+            <div class="btalk"><span id="bsay">B说：没事，放轻松</span></div>
+        </div>
+        <div class="talk_input">
+            <select class="whotalk" id="who">
+                <option value="0">A说：</option>
+                <option value="1">B说：</option>
+            </select>
+            <input type="text" class="talk_word" id="talkwords">
+            <input type="button" value="发送" class="talk_sub" id="talksub">
+        </div>
+    </div>
+</body>
+</html>
