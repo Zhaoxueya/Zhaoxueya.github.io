@@ -1,0 +1,101 @@
+@charset "utf-8";
+//导航栏
+.main{
+    padding: 0 0;
+}
+.navbar{
+    background-color: #1ABC9C;
+    height: 60px;
+    margin-bottom: 0;
+}
+.nav-item-1, .nav-item-2, .nav-item-3{
+    color: #fff;
+    margin-top: 25px;
+    text-align: center;
+}
+.nav-item-2{
+    font-size: 23px;
+    margin-top: 15px;
+}
+.nav-item-1{
+    text-align: left;
+}
+.nav-item-3{
+    text-align:right; 
+}
+.icon {
+       width: 32px; height: 32px;
+       vertical-align:0;
+       fill: currentColor;
+       overflow: hidden;
+}
+.search-contron
+{
+	margin-top: 20px;
+	margin-left:10px;
+}
+.tuijian-font
+{
+  font-weight: normal;
+  font-size: 20px;
+  text-align: left;
+  color: grey;
+}
+.bianqian-font
+{
+  font-weight: normal;
+  font-size: 20px;
+  text-align: left;
+  color: grey;
+}
+hr{
+    background-color: #DDDDDD;
+    height: 3px;
+    border: none;
+    }
+ //按钮区
+ .button-margin
+ {
+  margin-bottom: 10px;  
+  margin-left: 10px;
+ }
+ .tuijian-font
+ {
+  font-size: 20px;
+  color:grey;
+ }
+ .tuijian1-font
+ {
+  font-size: 25px;
+  color: black;
+ }
+ .tuijian2-font
+ {
+  font-size: 15px;
+  color: grey;
+ 
+ }
+ .zhaodao
+ {
+  font-size: 20px;
+  color: grey;
+  margin-left: 10px;
+  margin-top: 10px;
+ }
+ .img-border
+ {
+  width: 100px;
+  height:100px;
+  border: 1px solid #000;
+  text-align: center;
+ }
+ img
+ {
+  width: 100%;
+  height: 100%;
+ }
+ //左边距
+ .left
+{
+  margin-left:10px;
+}

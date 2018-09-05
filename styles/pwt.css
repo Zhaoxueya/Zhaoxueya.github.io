@@ -1,0 +1,77 @@
+@charset "utf-8";
+
+.bj img{
+	width: 100%;
+}
+.title{
+	margin-top: 10px;
+}
+.tp,.introduce,.button{
+	float: left;
+}
+.tp img{
+	width: 100%;
+}
+.jieshao{
+	margin-left: 20px;
+}
+.name{
+	font-weight: 700;
+	font-size: 1.5em;
+	margin-top: 20px;
+}
+.guanzhu,.sixin{
+	display: block;
+}
+.guanzhu{
+	margin-bottom: 20px;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+.title-two{
+	font-size: 2em;
+	margin-top: 5px;
+	border-bottom: 1px solid blue;
+	margin-top: 10px;
+}
+.title-two ul li{
+	list-style-type: square;
+}
+.icon{
+    width: 130px; height: 130px;
+    vertical-align: middle;
+    fill: currentColor;
+    overflow: hidden;
+}
+
+.introduce-two{
+	margin-top: 20px;
+	border-bottom: 2px solid #ccc;
+	
+}
+.renzhen{
+	font-size: 1.3em;
+	font-weight: 700;
+}
+.icon-middle{
+	width: 110px;
+	height: 110px;
+	margin-top: 10px;
+}
+.icon-bottom{
+	width: 100px;
+	height: 100px;
+	margin-top: 10px;
+}
+.nm{
+	font-weight: 700;
+	font-size: 1.8em;
+	margin-top: 10px;
+}
+.date{
+	margin-top: 15px;
+}
+.comment{
+	background-color: #F2F2F2;
+	font-size: 1.5em;
+}

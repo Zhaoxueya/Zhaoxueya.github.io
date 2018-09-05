@@ -1,0 +1,128 @@
+<!--首页测试-->
+@charset "utf-8";
+.title-font
+{
+	
+	font-weight: bold;
+	font-size: 20;
+	text-align: center;
+}
+.main
+{
+	text-align: center;
+	position: relative;
+	width: 100%;
+}
+.main1{
+    padding: 0 0;
+}
+.dingbu
+{
+	float:left;
+}
+.container{
+	 width: auto;
+    height: 40px;
+}
+.captain
+{
+    margin-top: 0;
+	font-size:2;
+	color:#1ABC9C
+}
+.more
+{
+	float: right;
+	margin-top: 0;
+	font-size:2;
+    color: #DDDDDD;
+}
+.passage-img
+{
+	text-align: center;
+	display: inline;
+}
+hr{
+    background-color: #DDDDDD;
+    height: 10px;
+    border: none;
+}
+.fenlei
+{
+	display: inline;
+	text-align: center;
+	position: relative;
+
+}
+.icon {
+       width: 32px; height: 32px;
+       vertical-align:0;
+       fill: currentColor;
+       overflow: hidden;
+   }
+.fenlei-font
+{
+	margin-bottom: 0;
+	font-size:2;
+    color: black;
+    text-align: center;
+}
+.img-font
+{
+	font-weight:bold;
+	font-size:20px;
+}
+<!--导航栏文件-->
+.main{
+    padding: 0 0;
+}
+.navbar{
+    background-color: #1ABC9C;
+    height: 60px;
+    margin-bottom: 0;
+}
+.nav-item-1, .nav-item-2, .nav-item-3{
+    color: #fff;
+    margin-top: 25px;
+    text-align: center;
+}
+.nav-item-2{
+    font-size: 23px;
+    margin-top: 15px;
+}
+.nav-item-1{
+    text-align: left;
+}
+.nav-item-3{
+    text-align:right; 
+}
+.fanhui
+{
+	text-align: left;
+}
+.ceshi
+{
+	text-align: center;
+	font-size: 23px;
+}
+.wenjian
+{
+	text-align: right;
+}
+img
+{
+margin:0 auto;
+text-align:center;
+}
+.width
+{
+	width: 100%
+}
+.bgcolor{
+	background-color: #1ABC9C
+}
+.search-contron
+{
+	margin-top: 20px;
+	margin-left:10px;
+}
